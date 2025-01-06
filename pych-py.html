@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/CSS/pycharm.css">
+</head>
+<body>
+
+    <nav>
+        <div class="container">
+          <div class="nav-con">
+            <div class="logo">
+              <h3><a href="index.html">PYTHON TUTORIAL</a></h3>
+            </div>
+            <div class="hamburger-icon" id="hamicon" onclick="toggleHamburger(this)">
+              <div class="bar1"></div>
+              <div class="bar2"></div>
+              <div class="bar3"></div>
+            </div>
+          </div>
+          <ul class="menu" id="slide">
+            <li><a href="for-loop.html">For loop</a></li>
+            <li><a href="#">อื่นๆ</a></li>
+            <li><a href="#">อื่นๆ</a></li>
+            <li><a href="#">อื่นๆ</a></li>
+          </ul>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-con">
+                <div class="hero-info">
+                    <h3>วิธีดาวน์โหลดและติดตั้ง PyCharm IDE เพื่อเขียน Python</h3>
+                    <p>PyCharm คือหนึ่งในเครื่องมือเขียนโค้ดภาษา Python ที่ได้รับความนิยมสูงสุดตัวหนึ่งในปัจจุบัน</p>
+                </div>
+            </div>
+        </div>
+    </section> 
+
+    <section class="blog">
+        <div class="container">
+            </div>
+            <div class="blog-con">
+                <div class="blog-img">
+                    <img src="/IMG/Python.jpg" alt="">
+                </div>
+                <div class="blog-item">
+                    <h4>ก่อนติดตั้ง PyCharm จำเป็นต้องดาวน์โหลดและติดตั้ง Python</h4>
+                </div> 
+
+
+                <div class="blog-img">
+                    <img src="/IMG//py01.png" alt="">
+                </div>
+
+                <div class="blog-item">
+                    <h4>ติดตั้ง PyCharm (สำหรับ Windows)</h4>
+                    <p>Pycharm เป็น IDE ตัวหนึ่งถูกพัฒนาโดย Jetbrain ผู้สร้าง Intelij สร้างขึ้นมาเพื่อพัฒนาโปรแกรมภาษา Python โดยจะอำนวยความสะดวกในการเขียนไม่ว่าจะเป็น File Explorer VCS และอื่นๆที่ติดมาด้วย</p>
+                    <p>1.ค้นหา PyCharm ใน Google</p>
+                </div>
+
+                <div class="blog-img">
+                    <img src="/IMG/py02.png" alt="">
+                </div>
+
+                <div class="blog-item">
+                    <p>2.ดาวน์โหลด PyCharm (เวอร์ชั่น Community หรือเวอร์ชั่นฟรี)</p>
+                </div>
+
+                <div class="blog-img">
+                    <img src="/IMG/py03.png" alt="">
+                </div>
+
+                <div class="blog-item">
+                    <p>3.ทำการดาวน์โหลด PyCharm มาก่อนโดยเราจะโหลดตัว Community Edition (ตัว Professional จะมีให้ทดลองใช้ฟรีในระยะเวลาหนึ่ง หลังจากนั้นจะต้องเสียเงินรายปี) โดย browser จะ detect OS ที่เราใช้เข้ามาแต่ต้นว่าใช้ระบบไหนอยู่ (Windows, macOS หรือ Linux เป็นต้น)</p>
+                </div>
+
+                <div class="blog-img">
+                    <img src="/IMG/py04.png" alt="">
+                </div>
+
+                <div class="blog-item">
+                    <p>4.หากใช้ macOS รุ่นหลังสถาปัตยกรรม ARM รุ่นที่ใช้ CPU M1, M2 ให้เลือกเป็น Apple Silicon</p>
+                </div>
+
+                <div class="blog-img">
+                    <img src="/IMG/py05.png" alt="">
+                </div>
+
+                <div class="blog-item">
+                    <p>5.เมื่อดาวน์โหลดมาแล้วก็กด next ไปเรื่อยๆ</p>
+                </div>
+
+                
+                <div class="blog-img">
+                    <img src="/IMG/py06.png" alt="">
+                </div>
+
+                <div class="blog-item">
+                    <p>6.ทำการเลือกโฟลเดอร์ที่จะติดตั้ง</p>
+                    <p>Desktop Shortcut - สร้าง shortcut ที่ desktop</p>
+                    <p>Update Context Menu - หากเราติ้กถูก เราจะสามารถคลิ้กขวาที่โฟลเดอร์แล้วเปิดใน Pycharm ได้เลย</p>
+                    <p>Create associations - เมื่อดับเบิ้ลคลิ้กไฟล์ .py ระบบจะใช้ Pycharm เปิด</p>
+                </div>
+
+                <div class="blog-img">
+                    <img src="/IMG/py07.png" alt="">
+                </div>
+
+                <div class="blog-item">
+                    <p>7.เมื่อติดตั้งเสร็จแล้วจะขึ้นรูปดังกล่าวให้เปิด PyCharm ขึ้นมาได้เลย</p>
+                </div>
+
+
+                <div class="blog-item">
+                    <h4>ติดตั้ง PyCharm (สำหรับ macOS)</h4>
+                    <p>ในส่วนของ Mac ก็ไม่แตกต่างกันกับ Windows อ้างอิงจากขั้นตอนด้านบนได้เลย ในภาพด้านล่างคือดาวน์โหลด PyCharm ลงเครื่องเรียบร้อย</p>
+                </div>
+
+                <div class="blog-img">
+                    <img src="/IMG/py08.png" alt="">
+                </div>
+
+                <div class="blog-item">
+                    <p>9.เมื่อเราดับเบิ้ลคลิ้กไฟล์ .dmg ที่โหลดมาจะขึ้นหน้าดังกล่าวให้เราลากตัว .app เข้าโฟลเดอร์ทางขวา</p>
+                </div>
+
+                <div class="blog-img">
+                    <img src="/IMG/py09.png" alt="">
+                </div>
+
+                <div class="blog-item">
+                    <p>10.เมื่อลากเสร็จแล้วเราจะสามารถค้นหา/เปิดตัวโปรแกรมผ่าน spotlight ได้เลย</p>
+                </div>
+
+                <div class="blog-img">
+                    <img src="/IMG/py10.png" alt="">
+                </div>
+
+                <div class="blog-item">
+                    <p>11.เปิด Pycharm ขึ้นมาครั้งแรกจะพบกับหน้าดังกล่าว</p>
+                </div>
+
+                <div class="blog-img">
+                    <img src="/IMG/py11.png" alt="">
+                </div>
+
+                <div class="blog-item">
+                    <p>12.หากเราทำการลงถูกต้อง Python Interpreter จะถูกตั้งไว้โดยอัตโนมัติ ให้ลองสร้างโปรเจคขึ้นมาโดยติ้กถูกที่ Create a main.py ด้วย</p>
+                </div>
+
+                <div class="blog-img">
+                    <img src="/IMG/py12.png" alt="">
+                </div>
+
+                <div class="blog-item">
+                    <p>13.เมื่อเราติ้กถูกที่ Create a main.py ตอนสร้างโปรเจค Pycharm จะสร้างไฟล์ main.py มาให้เราด้วยให้เราลองคลิ้กเป็น run ที่รูปสามเหลี่ยมขวาบน</p>
+                </div>
+
+                <div class="blog-img">
+                    <img src="/IMG/py13.png" alt="">
+                </div>
+
+                <div class="blog-item">
+                    <p>14.หากใช้งานได้จะได้ output ดังรูปข้างบนถือว่าการลงเสร็จสมบูรณ์</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    
+</body>
+<script src="/JAVASCRIPT/script.js"></script>
+</html>
