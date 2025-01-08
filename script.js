@@ -14,7 +14,7 @@ window.addEventListener("resize", function () {
   if (window.innerWidth >= 768) {
     slide.style.display = "none"; 
   }
-  if (window.innerWidth <= 1023) {
+  if (window.innerWidth <= 1200) {
     slide.style.display = "none"; 
   }else {
     slide.style.display = "flex"; 
